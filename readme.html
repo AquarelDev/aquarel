@@ -1,44 +1,64 @@
-Aquarel
-Aquarel est un site vitrine conçu pour être géré par des administrateurs avec des droits illimités, tandis que les adhérents disposent de droits limités. Ce projet est basé sur WordPress et est destiné à être déployé localement via WampServer.
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README - Aquarel</title>
+</head>
+<body>
 
-Prérequis
-Pour exécuter ce projet, vous aurez besoin des éléments suivants :
+<h1>Aquarel</h1>
 
-WampServer
-Git
-WordPress
-Installation
-Étape 1 : Installer WampServer
-Téléchargez et installez WampServer à partir du site officiel. Suivez les instructions fournies pour compléter l'installation.
+<p>Aquarel est un site vitrine conçu pour être géré par des administrateurs avec des droits illimités, tandis que les adhérents disposent de droits limités. Ce projet est basé sur WordPress et est destiné à être déployé localement via WampServer.</p>
 
-Étape 2 : Cloner le dépôt Git
-Clonez le dépôt Git de votre projet Aquarel. Ouvrez une fenêtre de terminal et exécutez la commande suivante :
-Copier le code
-git clone <lien-github-du-projet>
-Remplacez <lien-github-du-projet> par l'URL de votre dépôt Git.
+<h2>Prérequis</h2>
 
-Étape 3 : Déplacer le dossier du projet
-Déplacez le dossier cloné dans le répertoire www de WampServer. Par défaut, ce répertoire se trouve généralement à l'emplacement suivant :
+<p>Pour exécuter ce projet, vous aurez besoin des éléments suivants :</p>
+<ul>
+    <li><a href="http://www.wampserver.com/">WampServer</a></li>
+    <li><a href="https://git-scm.com/">Git</a></li>
+    <li><a href="https://wordpress.org/">WordPress</a></li>
+</ul>
 
-makefile
-Copier le code
-C:\wamp64\www\
-Étape 4 : Lancer WampServer
-Ouvrez WampServer et démarrez les services Apache et MySQL. Vous pouvez accéder à l'interface de WampServer en cliquant sur l'icône WampServer dans la barre des tâches et en sélectionnant "Localhost" ou en cliquant sur ce lien.
+<h2>Installation</h2>
 
-Étape 5 : Configurer WordPress
-Accédez à http://localhost/aquarel dans votre navigateur web pour commencer la configuration de WordPress. Suivez les instructions à l'écran pour configurer la base de données et finaliser l'installation de WordPress.
+<h3>Étape 1 : Installer WampServer</h3>
+<p>Téléchargez et installez WampServer à partir du <a href="http://www.wampserver.com/">site officiel</a>. Suivez les instructions fournies pour compléter l'installation.</p>
 
-Utilisation
-Une fois l'installation terminée, vous pouvez accéder à l'interface d'administration de WordPress via http://localhost/aquarel/wp-admin. Utilisez vos identifiants d'administrateur pour vous connecter et gérer le site.
+<h3>Étape 2 : Cloner le dépôt Git</h3>
+<p>Clonez le dépôt Git de votre projet Aquarel. Ouvrez une fenêtre de terminal et exécutez la commande suivante :</p>
+<pre><code>git clone &lt;lien-github-du-projet&gt;</code></pre>
+<p>Remplacez <code>&lt;lien-github-du-projet&gt;</code> par l'URL de votre dépôt Git.</p>
 
-Les administrateurs disposent de droits illimités pour gérer le site, tandis que les adhérents ont des droits limités pour interagir avec le contenu selon les permissions définies.
+<h3>Étape 3 : Déplacer le dossier du projet</h3>
+<p>Déplacez le dossier cloné dans le répertoire <code>www</code> de WampServer. Par défaut, ce répertoire se trouve généralement à l'emplacement suivant :</p>
+<pre><code>C:\wamp64\www\</code></pre>
 
-Contribuer
-Les contributions au projet Aquarel sont les bienvenues. Pour contribuer, veuillez suivre les étapes suivantes :
+<h3>Étape 4 : Lancer WampServer</h3>
+<p>Ouvrez WampServer et démarrez les services Apache et MySQL. Vous pouvez accéder à l'interface de WampServer en cliquant sur l'icône WampServer dans la barre des tâches et en sélectionnant "Localhost" ou en cliquant sur ce <a href="http://localhost">lien</a>.</p>
 
-Forker le dépôt
-Créer une branche pour votre fonctionnalité (git checkout -b feature/ma-fonctionnalité)
-Commiter vos modifications (git commit -am 'Ajoute une nouvelle fonctionnalité')
-Pusher vers la branche (git push origin feature/ma-fonctionnalité)
-Créer une Pull Request
+<h3>Étape 5 : Configurer WordPress</h3>
+<p>Accédez à <a href="http://localhost/aquarel">http://localhost/aquarel</a> dans votre navigateur web pour commencer la configuration de WordPress. Suivez les instructions à l'écran pour configurer la base de données et finaliser l'installation de WordPress.</p>
+
+<h2>Utilisation</h2>
+<p>Une fois l'installation terminée, vous pouvez accéder à l'interface d'administration de WordPress via <a href="http://localhost/aquarel/wp-admin">http://localhost/aquarel/wp-admin</a>. Utilisez vos identifiants d'administrateur pour vous connecter et gérer le site.</p>
+<p>Les administrateurs disposent de droits illimités pour gérer le site, tandis que les adhérents ont des droits limités pour interagir avec le contenu selon les permissions définies.</p>
+
+<h2>Contribuer</h2>
+<p>Les contributions au projet Aquarel sont les bienvenues. Pour contribuer, veuillez suivre les étapes suivantes :</p>
+<ol>
+    <li>Forker le dépôt</li>
+    <li>Créer une branche pour votre fonctionnalité (<code>git checkout -b feature/ma-fonctionnalité</code>)</li>
+    <li>Commiter vos modifications (<code>git commit -am 'Ajoute une nouvelle fonctionnalité'</code>)</li>
+    <li>Pusher vers la branche (<code>git push origin feature/ma-fonctionnalité</code>)</li>
+    <li>Créer une Pull Request</li>
+</ol>
+
+<h2>Licence</h2>
+<p>Ce projet est sous licence <a href="LICENSE">MIT</a>.</p>
+
+<h2>Contact</h2>
+<p>Pour toute question ou suggestion, veuillez contacter <a href="mailto:votre-email@example.com">votre nom ou votre email</a>.</p>
+
+</body>
+</html>
