@@ -9,7 +9,8 @@
 <!DOCTYPE html>
 <html class="<?php echo esc_attr( oceanwp_html_classes() ); ?>" <?php language_attributes(); ?>>
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
+    <!--    Reférencement SEO-->
+    <meta name="description" content="aquarel, association, partage, pontoise, louvrais">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<?php wp_head(); ?>
